@@ -3,24 +3,24 @@ import { ProjectCard } from "../../../components/ProjectCard";
 export default function Projects() {
   const projects = [
     {
-      title: "Number of Member",
-      description: "Developed a web application for the class 20KTPM2 group in Java using object-oriented programming principles. Jan 2024 - Mar 2024.",
-      link: "#",
-    },
+      title: "Candy Crush Saga by Java",
+      description: "Built a web app for the 20KTPM2 group using Java and OOP principles. Jan 2024 - Mar 2024.",
+      link: "https://github.com/tttduong/Candy-Crush-Lab5",
+    }, 
     {
       title: "Puzzle Game by Java",
-      description: "Developed a Puzzle Candy Crush game as part of a team project focusing on Java programming and teamwork. Sep 2023 - Dec 2023.",
-      link: "#",
+      description: "Created a Puzzle Candy Crush game with a team, focusing on Java and collaboration. Sep 2023 - Dec 2023.",
+      link: "https://github.com/lehoangvi123/2048-game",
     },
     {
-      title: "Stock Exchange Management System",
-      description: "Contributed to the development of a full-stack Employee Management System with ReactJS, Spring Boot, and MySQL. Jan 2023 - May 2023.",
-      link: "#",
-    },
+      title: "MERN stack employee management",
+      description: "Developed a full-stack Employee Management System using ReactJS, Spring Boot, and MySQL. Jan 2023 - May 2023.",
+      link: "https://github.com/Quanchip/wad-employee-management-app",
+    }, 
     {
       title: "Music Player App",
-      description: "Developed a music application using HTML, CSS, JavaScript, and Bootstrap for learning music online. Sep 2022 - Dec 2022.",
-      link: "#",
+      description: "Designed a music learning app with HTML, CSS, JavaScript, and Bootstrap. Sep 2022 - Dec 2022.",
+      link: "https://github.com/lehoangvi123/Music-Player",
     },
   ];
 
