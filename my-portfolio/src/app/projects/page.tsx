@@ -32,7 +32,7 @@ export default function Projects() {
           <ProjectCard
             key={index}
             title={project.title}
-            description={project.description}
+            description={project.description} 
             link={project.link}
           />
         ))}

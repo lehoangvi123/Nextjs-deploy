@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image"; // Correct import from Next.js
 import Link from "next/link";
 
 export default function Home() {
@@ -6,7 +6,7 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[20px] items-center sm:items-start text-center">
         <Image
-          src="/profile.jpg"
+          src="/profile_image.jpg" // Updated path to match the file in the public folder
           alt="Profile picture of Lê Hoàng Vĩ"
           width={150}
           height={150}
